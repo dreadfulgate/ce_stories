@@ -78,10 +78,10 @@ class CE_ThisStory extends WP_Widget {
 	
 	function form ($instance) { 
 		$defaults = array ( 	'firstlink'	  => true,
-						'firstline'	  => 'Read from the beginning',	
-						'synopsis'	  => true,
-						'archive' 	  => true,
-						'show-anyway' => true
+					'firstline'	  => 'Read from the beginning',	
+					'synopsis'	  => true,
+					'archive' 	  => true,
+					'show-anyway' => true
 					);		
 		$instance = wp_parse_args( (array) $instance, $defaults );
 		?>
@@ -121,23 +121,3 @@ function ce_register_widgets() {
 }
 
 add_action( 'widgets_init', 'ce_register_widgets' );
-
-
-// Bonus functions
-/*
-add_filter ('display_posts_shortcode_args', 'list_comic_chapters');
-
-function list_comic_chapters() {
-	$atts['chapter'] = '';
-	$chapter  = sanitize_text_field( $atts['chapter'] );
-		if( $chapter !== false ) {
-		if ( ($post_type == 'comic') && ( !empty( $chapter ) )) {
-			if( 'current' == $chapter ) {
-				global $post;
-				$chapter = $chapter = get_the_terms( $post->ID, 'chapters' );
-			}
-		}
-	}
-	$args['chapter'] = $chapter;	
-}
-*/

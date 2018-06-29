@@ -1,7 +1,7 @@
 <?php
 /**
  * Plugin Name: Comic Easel - This Story Widget
- * Plugin URI: http://comiceasel.org
+ * Plugin URI: https://github.com/dreadfulgate
  * Description: Add-on to Comic Easel, collects some story (chapter) info and a link to the first page into a widget.
  * Author: Max Vähling
  * Author URI: http://dreadfulgate.de

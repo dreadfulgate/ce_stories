@@ -81,7 +81,7 @@ class CE_ThisStory extends WP_Widget {
 					'firstline'	  => 'Read from the beginning',	
 					'synopsis'	  => true,
 					'archive' 	  => true,
-					'show-anyway' => true
+					'show-anyway'     => true
 					);		
 		$instance = wp_parse_args( (array) $instance, $defaults );
 		?>

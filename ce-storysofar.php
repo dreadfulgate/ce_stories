@@ -8,7 +8,7 @@
  * Version: 0.1.0
  */
 
-// Meta-Box 
+// Meta Box 
 
 function ce_story_metabox() {
 	add_meta_box( 

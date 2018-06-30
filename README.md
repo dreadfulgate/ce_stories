@@ -14,7 +14,7 @@ Adds a metabox to the "Add Comic" page for a quick summary of what happened so f
 They're both in my own personal beta right now, but they're functional so feel free to use and/or adapt them. Of course, I'm guaranteeing nothing at this point, though they should be harmless. Here's how to use them: 
 
 1. Upload the php files to your plugins folder;
-2. Activate. 
+2. Activate them in the Plugins menu. 
 3. If the "Story So Far" meta box doesn't show int the "Add Comic" page, you might have to check it in the Screen Options drop-down. The widgtets should just show in your widgets page, somewhere around where the other Comic Easel widgets are.
 4. You'll find all the instructions you need right where you need them: Around the meta box for "The Story So Far" and in the widget itself for "this Story". It's all real simple. I think.
 5. If you run into issues, please let me know.

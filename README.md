@@ -1,7 +1,7 @@
 # ce_stories
 
 Short info: These are two add-ons for the WordPress plugin Comic Easel. 
-I've written them mostly for myself but they may be of interest to other people who have long form comics. There's no particular reason why I kept them separate except I needed them like this for my site layout. I may combine them later. See them in action at the.dreadfulgate.de. 
+I've written them mostly for myself but they may be of interest to other people who have long form comics. There's no particular reason why I kept them separate except I needed them like this for my site layout. I may combine them later. See them in action at the.dreadfulgate.de. (Look for the longer stories. I've set both widgets to not show when there's nothing to show and I haven't written summaries for all of my 500+ comic pages yet.)
 
 I'm currently working on some additional functions. Once I'm happy with those, I'm going to submit them to WordPress. There are plans to add the functions to a future version of Comic Easel itself, too.
 

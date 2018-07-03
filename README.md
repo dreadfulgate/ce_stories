@@ -15,6 +15,6 @@ They're both in my own personal beta right now, but they're functional so feel f
 
 1. Upload the php files to your plugins folder;
 2. Activate them in the Plugins menu. 
-3. If the "Story So Far" meta box doesn't show int the "Add Comic" page, you might have to check it in the Screen Options drop-down. The widgtets should just show in your widgets page, somewhere around where the other Comic Easel widgets are.
-4. You'll find all the instructions you need right where you need them: Around the meta box for "The Story So Far" and in the widget itself for "this Story". It's all real simple. I think.
-5. If you run into issues, please let me know.
+3. If the "Story So Far" meta box doesn't show in the "Add Comic" page, you might have to check it in the Screen Options drop-down at the top of the page. The widgets should just show in your widgets page, somewhere around where the other Comic Easel widgets are.
+4. You'll find all the instructions you need right where you need them: Around the meta box for "The Story So Far" and in the widget itself for "this Story". It's all really simple. I think.
+5. If you run into issues, please let me know. That's what I'm here for!

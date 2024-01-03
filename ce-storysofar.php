@@ -4,7 +4,7 @@
  * Plugin URI: https://github.com/dreadfulgate
  * Description: Add-on to Comic Easel, adds a "story so far" meta box, shortcode and widget.
  * Author: Max Vähling
- * Author URI: http://dreadfulgate.de
+ * Author URI: https://dreadfulgate.de
  * Version: 0.1.0
  */
 
@@ -24,7 +24,7 @@ add_action( 'add_meta_boxes', 'ce_story_metabox' );
   
 function ce_storybox ($post) { 
 	wp_nonce_field( 'basename( __FILE__ )', 'do_the_nonce' );
-	$ce_storysofar = get_post_meta( $post->ID, 'ce_storysofar', true );					
+	$ce_storysofar = get_post_meta( $post->ID, 'ce_storysofar', true );				
 	echo '<textarea rows="3" name="ce_storysofar" style="width:100%;">'. $ce_storysofar .'</textarea>';
 	echo "<p>Add a story summary for readers to catch up quickly. You can display the summary in a sidebar using the 'Comic Easel - The Story so far' widget or in your comic post using the [storysofar] shortcode. (Feel free to change the headline by adding a 'title' tag to the shortcode.)</p>";
 }
@@ -72,9 +72,7 @@ function ce_shortcode_so_far($atts) {
 	
 add_shortcode( 'storysofar', 'ce_shortcode_so_far' );
 
- 
 // Widget
-
 class CE_StorySoFar extends WP_Widget {
 
 	function __construct () { 

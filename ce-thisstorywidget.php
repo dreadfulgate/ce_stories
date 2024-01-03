@@ -4,7 +4,7 @@
  * Plugin URI: https://github.com/dreadfulgate
  * Description: Add-on to Comic Easel, collects some story (chapter) info and a link to the first page into a widget.
  * Author: Max Vähling
- * Author URI: http://dreadfulgate.de
+ * Author URI: https://dreadfulgate.de
  * Version: 0.1.0
  */
 

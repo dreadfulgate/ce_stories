@@ -1,11 +1,13 @@
 # ce_stories
 
+
 ## Short info: 
 These are two add-ons for the WordPress plugin Comic Easel.      
 I've written them mostly for myself but they may be of interest to other people who have long form comics. There's no particular reason why I kept them separate except I needed them like this for my own layout. I may combine them later. See them in action at the.dreadfulgate.de. (Look for the longer stories. I've set both widgets to not show when there's nothing to show and I haven't written summaries for all of my 500+ comic pages yet.)    
 
 ### Version info
 The plugins haven't been tested extensively with WP 6 or the latest version of Comic Easel. They work fine with WP 5, PHP 7 and CE, uh, 3?
+
 
 ## 1. This Story Widget: 
 Creates a widget with some handy information for ongoing stories to show in the sidebar, such as the story title when it's not the page title as well, a synopsis, and a link to the first page.

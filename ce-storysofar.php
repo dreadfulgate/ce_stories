@@ -31,22 +31,22 @@ function ce_storybox ($post) {
  
 function save_story_meta( $post_id ) {   
 	// Pre-game: Check if nonce is set
- if ( ! isset( $_POST['do_the_nonce'] ) ) {
-        return $post_id;
+ 	if ( ! isset( $_POST['do_the_nonce'] ) ) {
+    return $post_id;
 	}
-    if ( ! wp_verify_nonce( $_POST['do_the_nonce'], 'basename( __FILE__ )' ) ) {
-        return $post_id;
+	if ( ! wp_verify_nonce( $_POST['do_the_nonce'], 'basename( __FILE__ )' ) ) {
+    return $post_id;
 	} 
 	// Check that the logged in user has permission to edit this post
-    if ( ! current_user_can( 'edit_post' ) ) {
-        return $post_id;
+  if ( ! current_user_can( 'edit_post' ) ) {
+	  return $post_id;
 	}
 	// Game: 
 	if ($_POST['ce_storysofar']) {
 		update_post_meta( 
-				$post_id, 
-				"ce_storysofar", 
-				strip_tags($_POST['ce_storysofar'])
+			$post_id, 
+			"ce_storysofar", 
+			strip_tags($_POST['ce_storysofar'])
 		);
 	}
 }
@@ -121,4 +121,4 @@ function ce_register_story_widgets() {
 	register_widget( CE_StorySoFar ); 
 }
 	
-add_action( 'widgets_init', 'ce_register_story_widgets' );	
+add_action( 'widgets_init', 'ce_register_story_widgets' );

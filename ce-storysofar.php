@@ -3,9 +3,9 @@
  * Plugin Name: Comic Easel - The Story So Far
  * Plugin URI: https://github.com/dreadfulgate
  * Description: Add-on to Comic Easel, adds a "story so far" meta box, shortcode and widget.
- * Author: Max Vähling
+ * Author: Max Vaehling
  * Author URI: https://dreadfulgate.de
- * Version: 0.1.0
+ * Version: 0.2.0
  */
 
 // Meta Box 

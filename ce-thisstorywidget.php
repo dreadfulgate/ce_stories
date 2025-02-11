@@ -3,9 +3,9 @@
  * Plugin Name: Comic Easel - This Story Widget
  * Plugin URI: https://github.com/dreadfulgate
  * Description: Add-on to Comic Easel, collects some story (chapter) info and a link to the first page into a widget.
- * Author: Max Vähling
+ * Author: Max Vaehling
  * Author URI: https://dreadfulgate.de
- * Version: 0.1.0
+ * Version: 0.2.0
  */
 
 function ce_get_first_in_chapter() {
@@ -33,7 +33,6 @@ function ce_get_first_in_chapter() {
 	}
 	return false;
 }
-
 
 class CE_ThisStory extends WP_Widget {
 
@@ -75,7 +74,7 @@ class CE_ThisStory extends WP_Widget {
 			}
 		}		
 	}
-	
+
 	function form ($instance) { 
 		$defaults = array ( 	'firstlink'	  => true,
 					'firstline'	  => 'Read from the beginning',	
